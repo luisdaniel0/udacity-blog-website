@@ -1,0 +1,59 @@
+.cardSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 20px;
+  height: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#moreAbout {
+  display: flex;
+  margin-top: auto;
+  width: 150px;
+}
+
+#homeTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeNavList {
+  list-style: none;
+
+}
+
+.aboutMeLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+
+}
+
+.homeLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+h2 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+#foot {
+  color:brown;
+}
