@@ -1,5 +1,17 @@
-
-
 @import "first.css";
 @import "second.css";
 @import "third.css";
+
+/* @media (max-width: 600px) {
+  .gridContainer{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+
+  }
+
+}
+
+@media (min-width:601px){
+
+} */
