@@ -2,16 +2,28 @@
 @import "second.css";
 @import "third.css";
 
-/* @media (max-width: 600px) {
+@media (max-width:600px) {
+  .cardSection{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .content{
+    max-width: 400px;
+    
+  }
   .gridContainer{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px;
-
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+    "hd hd"
+    "main main"
   }
-
+  .sidebar{
+    display:none;
+  }
 }
 
-@media (min-width:601px){
-
-} */
